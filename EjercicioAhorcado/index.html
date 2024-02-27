@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ahorcado</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="contenedor" id="juego">
+    <h1>Ahorcado</h1>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <p>Palabra:</p>
+    <p id="palabraActual"></p>
+    <p>Oportunidades restantes: <span id="intentosRestantes">7</span></p>
+    <div id="letrasUsadas">Letras usadas: <span id="letrasUsadasTexto"></span></div>
+    <p id="mensajeFinal"></p>
+    <center><button class="botonReiniciar" id="reiniciarBtn">Volver a Jugar</button></center>
+    <div id="letrasDisponibles"></div>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
